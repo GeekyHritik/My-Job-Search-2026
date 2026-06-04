@@ -1,0 +1,130 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+\definecolor{heading}{RGB}{15, 50, 95}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-1pt}\color{heading}\scshape\raggedright\large
+}{}{0em}{}[\color{heading}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-1pt}}}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=$\bullet$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape \color{heading} Hritik Kabra} \\ \vspace{2pt}
+    \small 857-284-2642 $\bullet$
+    \href{mailto:kabra.h@northeastern.edu}{\underline{kabra.h@northeastern.edu}} $\bullet$
+    \href{https://www.linkedin.com/in/hritikkabra888}{\underline{LinkedIn}} $\bullet$
+    Boston, MA (Open to Portland Relocation)
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, MA}
+{Master of Professional Studies in Analytics $\bullet$ GPA: \textbf{3.85}/4.0 $\bullet$ \textbf{2026 Graduate Student of the Year}}{Sep 2024 -- Jun 2026}
+\resumeSubheading
+{Dr.\ B R Ambedkar National Institute of Technology}{Jalandhar, India}
+{Bachelor of Technology in Materials Science \& Engineering}{2017 -- 2021}
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Transportation \& Logistics Analytics:} OTIF Tracking, Carrier Performance (TL, LTL, Parcel), Freight Cost Analysis, In-Transit Audits, SLA Compliance Monitoring, Network Optimization, Shipment Visibility, Exception Management \\
+\textbf{BI \& Reporting:} Power BI (DAX, KPI Dashboards), Tableau, Automated Reporting, Executive QBR/MBR Packages, Data Storytelling, Self-Service Reporting \\
+\textbf{Data \& Systems:} Advanced Excel (Pivot Tables, Power Query, VBA/Macros), SQL (Joins, Aggregation, Large Dataset Extraction), Python (Pandas, NumPy), SAP S/4HANA (MM, WM, SD), TMS/ERP/WMS Integration \\
+\textbf{Process \& Collaboration:} Lean Six Sigma Green Belt (DMAIC), Root Cause Analysis, Cross-Functional Stakeholder Communication, SOP Development, Project Management, Continuous Improvement
+}}
+\end{itemize}
+
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Web Industries}{Boston, MA}
+{Supply Chain \& Transportation Analyst Co-op}{Jul 2025 -- Dec 2025}
+\resumeItemListStart
+\resumeItem{Developed automated Power BI and SQL dashboards tracking OTIF, carrier performance, and shipment cost across \textbf{5} distribution facilities, surfacing SLA deviations and delivering executive summaries that drove a \textbf{68\%} on-time delivery improvement}
+\resumeItem{Queried large TMS, ERP, and carrier-feed datasets to reconcile shipping documentation, flag data quality issues, and trace root causes behind in-transit exceptions, reducing order-to-delivery cycle time by \textbf{25\%}}
+\resumeItem{Executed Lean Six Sigma DMAIC analyses on outbound carrier performance and parcel exception patterns, partnering with Operations, Distribution, and Finance to implement corrective actions ensuring SLA compliance}
+\resumeItem{Authored KPI definitions, calculation methodologies, and SOPs standardizing transportation reporting workflows, enabling self-service adoption across logistics, warehouse, and customer service teams}
+\resumeItemListEnd
+\resumeSubheading
+{Trident Group --- \$4B Manufacturer (Walmart, Target, Amazon Supplier)}{Bhopal, India}
+{Transportation \& Supply Chain Analyst, Office of the Managing Director}{Sep 2021 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Spearheaded end-to-end outbound logistics analytics across a \textbf{1M}-unit/day network, building KPI dashboards in Power BI and Excel tracking OTIF, freight cost-per-unit, carrier SLA adherence, and warehouse utilization that influenced \$\textbf{50M} in distribution decisions}
+\resumeItem{Engineered predictive demand and shipment volume models using Python and SQL across \textbf{1,200} SKUs, improving forecast accuracy by \textbf{35\%} and reducing inventory carrying costs by \textbf{18\%} to optimize replenishment and carrier load planning}
+\resumeItem{Presented weekly carrier performance recaps and MBR packages to C-suite and \textbf{3PL} partners, facilitating cross-functional workshops with \textbf{50} stakeholders to align on corrective actions and network optimization priorities}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Control Tower: OTIF \& Carrier Performance Optimization}{Trident Group}
+{Continuous Improvement Lead (with PwC \& Grant Thornton)}{Apr 2023 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Architected enterprise constraint analysis applying Theory of Constraints and Lean (JIT, FIFO) to eliminate outbound shipping bottlenecks, achieving \textbf{40\%} throughput improvement, \textbf{30\%} cycle-time reduction, and \textbf{95\%} OTIF delivery across all channels}
+\resumeItem{Automated exception-management dashboards triaging shipments by urgency and tracking carrier performance, WIP, and capacity utilization, enabling real-time corrective actions and weekly in-transit audit resolution}
+\resumeItemListEnd
+\resumeSubheading
+{SAP S/4HANA: Supply Chain Systems Modernization}{Trident Group}
+{Project Lead $\bullet$ 6 Modules incl.\ Warehouse \& Materials Mgmt $\bullet$ 7M Records}{Jul 2022 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Orchestrated ERP transformation across WM, MM, and SD modules, mapping transportation and warehouse data elements and validating a \textbf{7M}-record migration that streamlined carrier integration and shipment visibility; recognized as \textbf{Employee of the Year}}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Leadership \& Achievements}
+\resumeItemListStart
+\resumeItem{\textbf{2026 Graduate Student of the Year}, Northeastern University $\bullet$ \textbf{McKinsey Forward Ambassador}, selected from 128 countries $\bullet$ \textbf{Lean Six Sigma Green Belt}, Indian Statistical Institute}
+\resumeItem{Co-authored peer-reviewed chapter in Taylor \& Francis on data-driven operations $\bullet$ \textbf{2nd Place}, Northeastern Analytics Hackathon $\bullet$ \textbf{Two-time National Champion}, One Day CEO Challenge}
+\resumeItemListEnd
+
+\end{document}
