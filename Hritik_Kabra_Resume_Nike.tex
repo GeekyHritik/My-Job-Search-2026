@@ -1,0 +1,133 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\definecolor{heading}{RGB}{15, 50, 95}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-1pt}\color{heading}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{heading}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item{#1 \vspace{-1pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=$\bullet$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\begin{center}
+    {\color{heading}\textbf{\LARGE \scshape Hritik Kabra}} \\ \vspace{1pt}
+    \small 857-284-2642 $|$ \href{mailto:kabra.h@northeastern.edu}{\underline{kabra.h@northeastern.edu}} $|$
+    \href{https://www.linkedin.com/in/hritikkabra888}{\underline{LinkedIn}} $|$ Boston, MA $|$ Open to Relocation
+\end{center}
+
+\section{EDUCATION}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, MA}
+{Master of Professional Studies in Analytics $|$ \textbf{GPA: 3.85/4.0} $|$ \textbf{2026 Graduate Student of the Year}}{Sep 2024 -- Jun 2026}
+\resumeSubheading
+{Dr.\ B R Ambedkar National Institute of Technology}{Jalandhar, PB}
+{Bachelor of Technology in Materials Science \& Engineering}{Jul 2017 -- Jun 2021}
+\resumeSubHeadingListEnd
+
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Order Management \& Supply Chain:} End-to-End Order Management, Orderbook Management, Delivery Tracking, Order Fill Rate Analysis, Cancel Date Management, Returns Execution, Demand Forecasting, Supply Execution, Inventory Allocation, Safety Stock Optimization, Backorder Analysis \\[3pt]
+\textbf{Process Improvement \& Collaboration:} Sales and Operations Planning, Lean Six Sigma (DMAIC), Theory of Constraints, Cross-Functional Coordination, Stakeholder Communication, Risk Identification, Continuous Improvement, Peer Mentorship \\[3pt]
+\textbf{Enterprise Systems:} SAP S/4HANA (Materials Management, Warehouse Management, Sales and Distribution, Production Planning, Plant Maintenance, Master Data Management), Advanced Excel (Pivot Tables, Power Query, Macros/VBA) \\[3pt]
+\textbf{Analytics \& Reporting:} Power BI (DAX, Dashboards), SQL, Python (Pandas, NumPy), Key Performance Indicator Monitoring, Standard and Ad Hoc Reporting
+}}
+\end{itemize}
+
+\section{PROFESSIONAL EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Web Industries}{Boston, MA}
+{Supply Chain \& Data Analyst Co-op}{Jul 2025 -- Dec 2025}
+\resumeItemListStart
+\resumeItem{Monitored end-to-end delivery and order fulfillment across 5 facilities, building automated Power BI and SQL dashboards tracking on-time delivery, fill rates, and shipping KPIs that drove on-time improvement of \textbf{68\%}}
+\resumeItem{Applied Lean Six Sigma DMAIC to root-cause delivery and quality KPI misses, recommending corrective actions that reduced cycle time by \textbf{25\%}}
+\resumeItem{Partnered with Operations, Procurement, Distribution, and Customer Service, authoring SOPs that standardized reporting across \textbf{5} facilities}
+\resumeItemListEnd
+
+\resumeSubheading
+{Trident Group}{Bhopal, MP}
+{Planning Analyst}{Sep 2021 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Developed demand forecasts and supply plans for 1,200 SKUs at a 1M units/day facility serving Walmart, Target, and Amazon, improving forecast accuracy by \textbf{35\%}}
+\resumeItem{Optimized reorder points, safety stock targets, and inventory allocation strategies with procurement and manufacturing, reducing carrying costs by \textbf{18\%} and improving turnover by \textbf{12\%}}
+\resumeItem{Facilitated monthly Sales and Operations Planning cycles with Marketing, Sales, Finance, and Operations, driving consensus on planning decisions totaling \textbf{\$50M}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{SUPPLY CHAIN PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Theory of Constraints \& Lean Six Sigma Transformation}{Trident Group}
+{Internal Transformation Analyst (with PwC \& Grant Thornton)}{Apr 2023 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Conducted enterprise-wide constraint analysis across production, shipping, and warehouse operations, applying Theory of Constraints and Lean principles---contributing to \textbf{40\%} throughput gain, \textbf{30\%} cycle time reduction, and On-Time In-Full of \textbf{95\%}}
+\resumeItem{Designed an order prioritization framework to triage shipments by urgency, root-caused recurring backorder drivers, and built executive dashboards for C-suite and Big 4 partners spanning \textbf{50} stakeholders}
+\resumeItemListEnd
+
+\resumeSubheading
+{SAP S/4HANA Supply Chain Implementation}{Trident Group}
+{Project Analyst}{Jul 2022 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Validated end-to-end data migration and inventory control process design across 6 SAP S/4HANA modules, contributing to enterprise go-live spanning \textbf{7M} records}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{CERTIFICATIONS, ACHIEVEMENTS \& LEADERSHIP}
+\resumeItemListStart
+\resumeItem{Named \textbf{Employee of the Year} at Trident Group for SAP implementation; awarded \textbf{Graduate Student of the Year} at Northeastern University in \textbf{2026}}
+\resumeItem{Earned \textbf{Lean Six Sigma Green Belt} certification from the Indian Statistical Institute in \textbf{2022}}
+\resumeItem{Selected as \textbf{McKinsey Forward Ambassador} from thousands of applicants spanning \textbf{128} countries}
+\resumeItem{Co-authored peer-reviewed supply chain publication in Taylor \& Francis; Northeastern Analytics Hackathon, finishing \textbf{2nd}}
+\resumeItemListEnd
+
+\end{document}
