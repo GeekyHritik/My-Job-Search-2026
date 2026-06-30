@@ -1,0 +1,135 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+\definecolor{heading}{RGB}{15, 50, 95}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-1pt}\color{heading}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{heading}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item{#1 \vspace{-1pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=$\bullet$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \scshape \color{heading} Hritik Kabra} \\ \vspace{2pt}
+    \small 857-284-2642 $|$ \href{mailto:kabra.h@northeastern.edu}{\underline{kabra.h@northeastern.edu}} $|$
+    \href{https://www.linkedin.com/in/hritikkabra888}{\underline{LinkedIn}} $|$ Boston, MA $|$ STEM OPT Authorized
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, MA}
+{Master of Professional Studies in Analytics $|$ GPA: \textbf{3.85}/4.0 $|$ \textbf{2026 Graduate Student of the Year}}{Sep 2024 -- Jun 2026}
+\resumeSubheading
+{Dr.\ B R Ambedkar National Institute of Technology}{Jalandhar, PB}
+{Bachelor of Technology in Engineering}{Jul 2017 -- Jun 2021}
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Report \& Dashboard Development:} Power BI (Dashboard Design, Data Analysis Expressions, Data Modeling, Calculated Columns, Measures), Power Query (M), Advanced Excel (Pivot Tables, Macros), Microsoft Access \\[3pt]
+\textbf{Data Modeling \& Transformation:} Structured Query Language (Joins, Common Table Expressions, Window Functions), Python (pandas, NumPy, scikit-learn), R, Extract Transform and Load Pipelines, Data Cleaning and Validation, Relational Databases \\[3pt]
+\textbf{Statistical Methods:} Statistical Modeling, Hypothesis Testing, Regression Analysis, Predictive Modeling, Forecasting, Variance Analysis, Scenario Analysis \\[3pt]
+\textbf{Platforms \& Collaboration:} SAP S/4HANA, Power Automate, Power Apps, Lean Six Sigma, Cross-Functional Stakeholder Coordination, Documentation Standards
+}}
+\end{itemize}
+
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Web Industries}{Boston, MA}
+{Business Intelligence Analyst (Co-op)}{Jul 2025 -- Dec 2025}
+\resumeItemListStart
+\resumeItem{Designed interactive Power BI dashboards and reporting infrastructure across \textbf{5} facilities, surfacing key performance indicators on delivery and operational trends that improved on-time delivery by \textbf{68\%}}
+\resumeItem{Extracted and reconciled production data using advanced SQL (joins, common table expressions, window functions), performing data validation and quality checks that reduced cycle time by \textbf{25\%}}
+\resumeItem{Constructed Python extract-transform-load pipelines (pandas, NumPy) to clean and merge data from disparate systems, validating source-to-target accuracy on \textbf{7M} records}
+\resumeItem{Documented data pipelines, validation protocols, and source-system mappings to ensure reproducibility and long-term reporting reliability across \textbf{5} facilities}
+\resumeItemListEnd
+
+\resumeSubheading
+{Trident Group}{Bhopal, MP}
+{Data Analyst to Analytics Lead, Office of the Managing Director}{Sep 2021 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Defined key performance indicators across order-to-delivery operations, partnering with PwC and Grant Thornton to structure fulfillment analyses that achieved \textbf{95\%} on-time in-full delivery}
+\resumeItem{Engineered predictive models using SQL, Python, and regression across \textbf{1,200} SKUs, improving forecast accuracy by \textbf{35\%} and reducing carrying costs by \textbf{18\%}}
+\resumeItem{Presented performance dashboards to C-suite and audit stakeholders, translating complex data into actionable insights for cross-functional workshops with \textbf{50} participants}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{SAP S/4HANA End-to-End Data Migration}{Trident Group}
+{Project Lead (with Bristlecone)}{Jul 2022 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Orchestrated SAP S/4HANA data migration across \textbf{6} modules, owning data modeling, extract-transform-load pipelines, and automated validation workflows for \textbf{7M} records spanning \textbf{12} departments}
+\resumeItemListEnd
+
+\resumeSubheading
+{Gender Disparity in CMS Open Payments}{Northeastern University}
+{Capstone Research}{2026}
+\resumeItemListStart
+\resumeItem{Analyzed gender disparity in CMS Open Payments for medical devices, defining cohorts and deriving variables from healthcare regulatory data to surface statistically significant gaps across \textbf{2} payment categories}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Certifications, Achievements \& Leadership}
+\resumeItemListStart
+\resumeItem{Recognized as \textbf{2026 Graduate Student of the Year} at Northeastern and \textbf{Employee of the Year} at Trident Group, earning top honors across \textbf{2} organizations}
+\resumeItem{Graduated from McKinsey Forward Program as Ambassador, selected from \textbf{128} countries, and delivered keynote on structured problem-solving to \textbf{2,300} learners}
+\resumeItem{Co-authored peer-reviewed chapter in Taylor \& Francis CRC Press; coached analytics workflows as Global Student Mentor for \textbf{16,000} students}
+\resumeItem{Earned Lean Six Sigma Green Belt (Indian Statistical Institute) and Google Business Intelligence Professional Certificate; at Northeastern Analytics Hackathon, placed \textbf{2nd}}
+\resumeItemListEnd
+
+\end{document}
