@@ -1,0 +1,143 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+\definecolor{heading}{RGB}{15, 50, 95}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-3pt}\color{heading}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{heading}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item{#1 \vspace{-2pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=$\bullet$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \scshape \color{heading} Hritik Kabra} \\ \vspace{2pt}
+    \small 857-284-2642 $|$ \href{mailto:kabra.h@northeastern.edu}{\underline{kabra.h@northeastern.edu}} $|$
+    \href{https://www.linkedin.com/in/hritikkabra888}{\underline{LinkedIn}} $|$ Boston, MA $|$ STEM OPT Authorized
+\end{center}
+
+\section{EDUCATION}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, MA}
+{Master of Professional Studies in Analytics $|$ GPA: 3.85/4.0 $|$ \textbf{2026 Graduate Student of the Year}}{Sep 2024 -- Jun 2026}
+\resumeSubheading
+{Dr.\ B R Ambedkar National Institute of Technology}{Jalandhar, PB}
+{Bachelor of Technology in Engineering}{Jul 2017 -- Jun 2021}
+\resumeSubHeadingListEnd
+
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{SQL \& Database Infrastructure:} Joins, Aggregations, Filtering, Subqueries, Common Table Expressions, Window Functions, Views, Stored Procedures, Reporting Datasets, Performance-Conscious Query Design \\[3pt]
+\textbf{Python \& Data Processing:} pandas, NumPy, scipy, scikit-learn, R, Data Extraction, Cleansing, and Transformation Scripts, Normalization, Validation, Reproducible Workflows \\[3pt]
+\textbf{Manufacturing Data \& Quality:} Data Hygiene, Reconciliation, Completeness Monitoring, Consistency Checks, Yield Analysis, Statistical Process Control, Anomaly Detection, Trend Analysis, Process Deviation Identification \\[3pt]
+\textbf{Reporting \& Visualization:} Tableau, Power BI, Recurring and Ad Hoc Reports, Dashboard Design, Advanced Excel (Pivot Tables, Power Query), SAP S/4HANA, Data Storytelling
+}}
+\end{itemize}
+
+\section{PROFESSIONAL EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Web Industries}{Boston, MA}
+{Business Intelligence Analyst (Co-op)}{Jul 2025 -- Dec 2025}
+\resumeItemListStart
+\resumeItem{Wrote SQL queries (joins, common table expressions, window functions) to build analysis-ready datasets from manufacturing and test databases, validating operational metrics that drove on-time delivery improvement of \textbf{68\%}}
+\resumeItem{Constructed Python pipelines (pandas, NumPy) to extract, cleanse, and validate manufacturing records totaling \textbf{7M}}
+\resumeItem{Designed Tableau and Power BI dashboards on yield and quality trends, supporting manufacturing cycle time reduction of \textbf{25\%}}
+\resumeItem{Documented data pipelines, validation protocols, and source-system mappings, contributing to operational efficiency gains of \textbf{35\%}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Trident Group}{Bhopal, MP}
+{Data Analyst to Analytics Lead}{Sep 2021 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Engineered SQL and Python data extraction, cleansing, and transformation pipelines across \textbf{1,200} SKUs serving Walmart, Target, and Amazon, performing validation and reconciliation that improved forecast accuracy by \textbf{35\%}}
+\resumeItem{Monitored data completeness and consistency across manufacturing databases, identifying and resolving missing and duplicate records for \textbf{12} departments}
+\resumeItem{Prepared recurring and ad hoc reports for C-suite on manufacturing trends, yield gaps, and process deviations at a facility averaging \textbf{1M}/day}
+\resumeItem{Built dashboards using Python, SQL, and Power BI to monitor production and inventory metrics, reducing carrying costs by \textbf{18\%}}
+\resumeItemListEnd
+
+\resumeSubheading
+{SynaptoCrats Research Lab}{India}
+{Data Research Analyst}{Apr 2020 -- Jul 2020}
+\resumeItemListStart
+\resumeItem{Modeled large health datasets using Python and R to forecast COVID-19 mortality hotspots, co-authoring peer-reviewed Taylor \& Francis chapter with findings adopted by the Government of India, \textbf{2022}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Theory of Constraints --- Manufacturing Process Optimization}{Trident Group}
+{Continuous Improvement Lead (with PwC and Grant Thornton)}{Apr 2023 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Led enterprise-wide constraint analysis across the manufacturing value chain, building executive dashboards on cycle time and capacity utilization that drove \textbf{40\%} throughput gain, \textbf{30\%} cycle time reduction, and on-time delivery of \textbf{95\%}}
+\resumeItemListEnd
+
+\resumeSubheading
+{SAP S/4HANA Implementation --- Manufacturing Data Migration}{Trident Group}
+{Project Lead (with Bristlecone)}{Jul 2022 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Orchestrated end-to-end data migration across \textbf{6} manufacturing modules and \textbf{12} departments, leading data modeling, validation, and reconciliation of \textbf{7M}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{CERTIFICATIONS, ACHIEVEMENTS \& LEADERSHIP}
+\resumeItemListStart
+\resumeItem{Google Business Intelligence Professional $|$ SAP S/4HANA $|$ \textbf{Lean Six Sigma Green Belt} (Indian Statistical Institute, \textbf{2022})}
+\resumeItem{\textbf{2026 Graduate Student of the Year}, Northeastern $|$ \textbf{Employee of the Year}, Trident Group $|$ National Champion, One Day CEO Challenge (\textbf{2x})}
+\resumeItem{\textbf{McKinsey Forward Ambassador} --- selected from thousands across \textbf{128} countries; delivered keynote on structured problem-solving to \textbf{2,300}}
+\resumeItem{Global Student Mentor --- coached \textbf{16,000} international students on analytics workflows and data-driven decision-making}
+\resumeItemListEnd
+
+\end{document}
