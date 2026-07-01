@@ -1,0 +1,139 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\definecolor{heading}{RGB}{15, 50, 95}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{3pt}\color{heading}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{heading}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item{#1 \vspace{0pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{4pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=$\bullet$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-1pt}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \scshape \color{heading} Hritik Kabra} \\ \vspace{2pt}
+    \small 857-284-2642 $|$ \href{mailto:kabra.h@northeastern.edu}{\underline{kabra.h@northeastern.edu}} $|$
+    \href{https://www.linkedin.com/in/hritikkabra888}{\underline{LinkedIn}} $|$ Boston, MA (Open to Relocation \& Travel)
+\end{center}
+
+%----------EDUCATION----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, MA}
+{Master of Professional Studies in Analytics $|$ GPA: \textbf{3.85}/4.0 $|$ \textbf{2026 Graduate Student of the Year}}{Sep 2024 -- Jun 2026}
+\resumeSubheading
+{Dr.\ B R Ambedkar National Institute of Technology}{Jalandhar, PB}
+{Bachelor of Technology in Materials Science \& Engineering}{Jul 2017 -- Aug 2021}
+\resumeSubHeadingListEnd
+
+%----------SKILLS----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\item{
+\textbf{Sourcing \& Procurement Analytics:} Spend Analysis, Savings Tracking, Supplier Performance Metrics, Cost Optimization, Competitive Benchmarking, Vendor Management, Data Governance \\[3pt]
+\textbf{Analytics \& Modeling:} SQL, Python (Pandas, NumPy, Scikit-learn), R, Advanced Excel (PivotTables, Power Query, Macros), Predictive Modeling, Regression Analysis, Financial Modeling \\[3pt]
+\textbf{Dashboards \& Reporting:} Power BI (Data Analysis Expressions), Tableau, Executive Dashboards, Data Visualization, Data Storytelling, Reporting Automation, Ad Hoc Analysis \\[3pt]
+\textbf{Systems \& Collaboration:} SAP S/4HANA (Materials Management, Warehouse Management, Sales and Distribution, Production Planning), Cross-Functional Stakeholder Management, Lean Six Sigma Green Belt
+}
+\end{itemize}
+
+%----------PROFESSIONAL EXPERIENCE----------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Web Industries}{Boston, MA}
+{Business Intelligence Analyst Co-op}{Jul 2025 -- Dec 2025}
+\resumeItemListStart
+\resumeItem{Designed executive dashboards and automated reporting in Power BI and SQL, tracking supplier delivery performance and production attainment across aerospace facilities, driving on-time delivery improvement of \textbf{68\%}}
+\resumeItem{Applied DMAIC to root-cause delivery and quality KPI misses, recommending actions that cut cycle time by \textbf{25\%}}
+\resumeItem{Partnered with Procurement, Operations, and Distribution to standardize reporting workflows across \textbf{5} facilities}
+\resumeItemListEnd
+
+\resumeSubheading
+{Trident Group}{Bhopal, MP}
+{Analytics Lead}{Sep 2021 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Analyzed complex spend datasets within PwC, Deloitte, and Grant Thornton engagements at a \textbf{\$4B} conglomerate, identifying cost-saving opportunities and delivering actionable insights that generated cumulative savings of \textbf{\$50M}}
+\resumeItem{Directed financial modeling for Fortune 500 retailers (Walmart, Target, Amazon), identifying revenue potential of \textbf{\$12M}}
+\resumeItem{Built sourcing performance dashboards using SQL, Python, and Power BI, improving forecast accuracy by \textbf{35\%}}
+\resumeItem{Facilitated monthly cross-functional reviews aligning demand with production capacity, reducing inventory costs by \textbf{18\%}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------PROJECTS----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{QSR Operations Strategy \& Analytics (Consulting Practicum)}{Intelmatix}
+{Project Lead -- Popeyes Louisiana Kitchen (RBI Brand)}{Jan 2025 -- Apr 2025}
+\resumeItemListStart
+\resumeItem{Led a 4-person analytics team examining operational performance across \textbf{14} restaurant locations using Python, SQL, and Tableau, delivering strategic recommendations that identified revenue potential of \textbf{\$47M}}
+\resumeItemListEnd
+
+\resumeSubheading
+{SAP S/4HANA Enterprise Transformation}{Trident Group}
+{Project Lead (with Bristlecone)}{Jul 2022 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Orchestrated ERP transformation across six modules, managing 7M-record data migration to improve data quality and reporting infrastructure; recognized as \textbf{Employee of the Year}, achieving efficiency gain of \textbf{35\%}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%----------ACHIEVEMENTS----------
+\section{Certifications, Achievements \& Leadership}
+\resumeItemListStart
+\resumeItem{Recognized as \textbf{McKinsey Forward Ambassador}, selected from 3,300 applicants across 128 countries; delivered keynote on structured problem-solving to an audience of \textbf{2,300}}
+\resumeItem{Earned \textbf{Two-Time National Champion} title (One Day CEO Challenge); co-authored \textbf{Taylor \& Francis} peer-reviewed chapter; Northeastern Analytics Hackathon, \textbf{2nd}}
+\resumeItem{Certified \textbf{Lean Six Sigma Green Belt} (Indian Statistical Institute) $|$ Leadership Consultant, Lead 360 Program (\textbf{200} students) $|$ Global Student Mentor (\textbf{160})}
+\resumeItemListEnd
+
+\end{document}
