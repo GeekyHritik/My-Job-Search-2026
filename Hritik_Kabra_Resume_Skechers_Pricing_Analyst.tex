@@ -1,0 +1,134 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+\definecolor{heading}{RGB}{15, 50, 95}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-1pt}\color{heading}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{heading}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item{#1 \vspace{-1pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=$\bullet$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \scshape \color{heading} Hritik Kabra} \\ \vspace{2pt}
+    \small 857-284-2642 $|$ \href{mailto:kabra.h@northeastern.edu}{\underline{kabra.h@northeastern.edu}} $|$
+    \href{https://www.linkedin.com/in/hritikkabra888}{\underline{LinkedIn}} $|$
+    Boston, MA (Open to Relocation) $|$ STEM OPT Authorized
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, MA}
+{Master of Professional Studies in Analytics $|$ GPA: 3.91/4.0 $|$ \textbf{2026 Graduate Student of the Year}}{Sep 2024 -- Jun 2026}
+\resumeSubheading
+{National Institute of Technology}{Jalandhar, PB}
+{Bachelor of Technology}{Jul 2017 -- Jun 2021}
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\item{
+\textbf{Data Analysis \& Tools:} Python (pandas, NumPy, scipy, scikit-learn), R, SQL (Joins, Common Table Expressions, Window Functions), Advanced Excel, Data Validation \\[3pt]
+\textbf{Business Intelligence \& Reporting:} Tableau, Power BI, Dashboard Design, Key Performance Indicator Reporting, Ad Hoc Analysis, Microsoft Office Suite \\[3pt]
+\textbf{Statistical \& Forecasting Methods:} Predictive Modeling, Regression Analysis, Hypothesis Testing, Variance Analysis, Demand Forecasting, Anomaly Detection \\[3pt]
+\textbf{Domain \& Process:} Wholesale Account Analytics, Margin Analysis, Competitive Pricing Strategy, Process Automation, Lean Six Sigma (DMAIC), SAP S/4HANA
+}
+\end{itemize}
+
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Web Industries}{Marlborough, MA}
+{Business Intelligence \& Data Analyst (Co-op)}{Jul 2025 -- Dec 2025}
+\resumeItemListStart
+\resumeItem{Extracted and transformed sales data from multiple enterprise systems using SQL and Python (pandas, NumPy), consolidating analysis-ready datasets spanning \textbf{7M} records}
+\resumeItem{Designed Tableau and Power BI dashboards monitoring net margin and delivery performance across 5 global facilities, surfacing pricing insights that improved on-time delivery by \textbf{68\%}}
+\resumeItem{Automated analytical workflows and month-end reporting using Lean Six Sigma DMAIC, reducing operational cycle time by \textbf{25\%}}
+\resumeItem{Presented account-level insights and performance metrics to senior leadership, supporting strategic decisions across a Fortune 500 portfolio valued at \textbf{\$1B}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Trident Group}{Bhopal, MP}
+{Data Analyst to Analytics Lead}{Sep 2021 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Analyzed wholesale account profitability for Fortune 500 retailers (Walmart, Target, Amazon), formulating competitive pricing strategies that generated \textbf{\$50M} in incremental revenue}
+\resumeItem{Engineered predictive demand forecasting models in Python across \textbf{1,200} SKUs, improving forecast accuracy by \textbf{35\%}}
+\resumeItem{Built executive dashboards and communicated data-driven recommendations to C-suite leadership, partnering with PwC to achieve \textbf{40\%} throughput improvement}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{SAP S/4HANA Enterprise Data Migration} $|$ Trident Group & \textit{\small Sep 2021 -- Nov 2023} \\
+\end{tabular*}\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Orchestrated end-to-end data migration across 12 departments, performing data modeling, validation, and source-to-target reconciliation for \textbf{7M} records}
+\resumeItemListEnd
+\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{COVID-19 Socio-Economic Impact Analysis} $|$ SynaptoCrats Research Lab & \textit{\small Apr 2020 -- Jul 2020} \\
+\end{tabular*}\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Modeled health and socio-economic datasets in Python and R, predicting mortality hotspots; recommendations adopted by the Government of India and published in Taylor \& Francis, \textbf{2022}}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Certifications, Achievements \& Leadership}
+\resumeItemListStart
+\resumeItem{Lean Six Sigma Green Belt (Indian Statistical Institute) $|$ Google Business Intelligence Professional $|$ McKinsey Forward Program Graduate, selected from \textbf{128} countries}
+\resumeItem{\textbf{2026 Graduate Student of the Year} $|$ \textbf{Employee of the Year} at Trident Group $|$ Two-Time National Champion, One Day CEO Challenge (\textbf{10,000} participants)}
+\resumeItem{Global Student Mentor at Northeastern University, onboarding and coaching \textbf{16,000} international students}
+\resumeItemListEnd
+
+\end{document}
